@@ -1,4 +1,4 @@
-const { BadRequestError } = require("../routes/utils/errors");
+const { BadRequestError } = require("../utils/errors");
 
 //const { BadRequestError } = require("./routes/utils/errors");
 class GiftExchange {

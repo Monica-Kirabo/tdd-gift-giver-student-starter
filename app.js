@@ -6,7 +6,7 @@ app.use(cors());
 const router = require("./routes/gift-exchange");
 //const giftex = require("./models/gift-exchange");
 
-const { NotFoundError } = require("./routes/utils/errors");
+const { NotFoundError } = require("./utils/errors");
 app.use(morgan("tiny"));
 app.use(express.json());
 //app.use(router);
